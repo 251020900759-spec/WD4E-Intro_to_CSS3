@@ -46,3 +46,38 @@ h1 {
 p {
     line-height: 1.8;
 }
+/* nav */
+nav {
+    display: inline-block;
+    width: 80%;
+}
+
+
+/* hình trong nav */
+nav img {
+    width: 10%;
+}
+
+
+/* grid */
+.grid {
+    display: grid;
+    grid-template-columns: 40% 40%;
+    justify-content: space-around;
+    align-items: center;
+    row-gap: 20px;
+}
+
+
+/* ảnh trong grid */
+.grid img {
+    width: 100%;
+}
+
+
+/* flex */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
